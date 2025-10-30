@@ -5,7 +5,7 @@ const Header = () => {
     return (
 
         <div
-            className="relative min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-x-hidden"
+            className="relative min-h-screen mb-0 bg-cover bg-center flex items-center w-full overflow-x-hidden"
             style={{ backgroundImage: "url('/images/hero-truck9.jpg')" }}
             id="Header"
         >
@@ -25,16 +25,15 @@ const Header = () => {
                 </p>
 
                 <div className="space-x-6 mt-16">
-                    <a href="#Features" className="border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition">
+                    <a href="#Features" className="border border-[#1e3a8a] px-8 py-3 rounded hover:bg-[#1e3a8a] hover:text-white transition">
                         Explore Features
                     </a>
-                    <a href="#Contact" className="bg-blue-500 px-8 py-3 rounded hover:bg-blue-600 transition">
+                    <a href="#Contact" className="bg-[#1e3a8a] px-8 py-3 border-white rounded hover:bg-blue-600 transition">
                         Get Started
                     </a>
                 </div>
             </div>
         </div>
-
 
     )
 }

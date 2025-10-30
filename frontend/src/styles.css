@@ -1,23 +1,11 @@
 @import "tailwindcss";
 
-
-/* body {
-  font-family: Arial, sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0px;
-  background: #d3d9e0;
-} */
-
 html,
-body,
-#root {
+body{
   margin: 0 !important;
   padding: 0 !important;
-  width: 100%;
-  height: 100%;
   box-sizing: border-box;
-  background: #ffffff;
+  background: #f3eeeed0;
 }
 
 *,
