@@ -63,29 +63,25 @@ function OptimizedImage({ alt, src, className, width, height }) {
 ------------------------- */
 export default function TransportPortalLanding() {
   return (
-    <div className="min-h-screen w-full font-sans text-slate-900 bg-white overflow-x-hidden m-0 p-0">
+    <div className="min-h-screen w-full font-sans text-slate-900 overflow-x-hidden m-0 p-0">
       {/* Header */}
       <Header/>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        {/* Background Image */}
-        {/* <div className="absolute inset-0 flex justify-center items-center opacity-10 -z-10">
-          <img
-            src="/images/hero-truck.jpg"
-            alt="Transport Background"
-            className="w-full max-w-[900px] h-auto object-contain"
-          />
-        </div> */}
 
-        <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        {/* <div className="max-w-7xl mx-auto px-6 py-2 lg:py-5 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center shadow-2xl"> */}
+         <div className="max-w-7xl mx-auto px-6 py-2 lg:py-5 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center shadow-[0_4px_0_0_rgba(0,0,0,0.2)]">
+
+
+
           <motion.div
             initial="hidden"
             animate="show"
             variants={fadeUp}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-[#1e3a8a] drop-shadow-md">
+            <h1 className="text-2xl sm:text-2xl md:text-4xl font-extrabold leading-tight text-[#1e3a8a] drop-shadow-md">
               Streamline Your Transport Operations
             </h1>
             <p className="mt-6 max-w-xl text-lg text-slate-700">
@@ -118,11 +114,11 @@ export default function TransportPortalLanding() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="w-full px-0 py-20 lg:py-28">
-              <div className="rounded-2xl overflow-hidden shadow-2xl bg-white ring-1 ring-slate-100">
+            <div className="w-full px-0 py-5 lg:py-5">
+              <div className="rounded-2xl overflow-hidden ring-1 ring-slate-100">
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold">Smart Dashboard</h3>
-                  <p className="mt-2 text-sm text-slate-600">
+                  <h3 className="text-3xl font-semibold">Smart Dashboard</h3>
+                  <p className="mt-2 text-slate-600">
                     Real-time insights, trip monitoring, and cost analytics.
                   </p>
 
@@ -137,14 +133,14 @@ export default function TransportPortalLanding() {
                   </div>
                 </div>
               </div>
-              <div className="hidden lg:block absolute -right-16 -bottom-10 w-56 h-56 bg-gradient-to-br from-cyan-200 to-indigo-200 rounded-full opacity-60 blur-3xl" />
+
             </div>
           </motion.div>
         </div>
       </section>
 
       {/* Modules Section */}
-      <section id="features" className="max-w-7xl mx-auto px-6 py-20">
+      <section id="features" className="max-w-7xl mx-auto px-5 py-15">
         <div className="text-center">
           <motion.h2
             initial="hidden"
